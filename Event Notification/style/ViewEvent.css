@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Times New Roman';
+    font-weight: 300;
+}
+
+.event-main{
+    margin: 2% auto;
+    width: 800px;
+    height: 590px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    padding: 40px;
+}
+  
+.event-title{
+    position: absolute;
+    margin: 1px 2px 2px 1px;
+    width: 715px;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.event-info{
+    position: absolute;
+    margin: 73px 2px 2px 2px;
+    width: 715px;
+    height: 120px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.event-type{
+    position: absolute;
+    margin: 216px 2px 2px 1px;
+    width: 715px;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.event-college-name{
+    position: absolute;
+    margin: 287px 2px 2px 1px;
+    width: 715px;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.event-date{
+    position: absolute;
+    margin: 358px 2px 2px 1px;
+    height: 40px;
+    width: 233px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    padding: 10px;
+}
+
+.event-lastdate{
+    position: absolute;
+    margin: 358px 2px 2px 242px;
+    height: 40px;
+    width: 255px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    padding: 10px;
+}
+
+.event-fees{
+    position: absolute;
+    margin: 358px 2px 2px 504px;
+    height: 40px;
+    width: 211px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    padding: 10px;
+}
+
+.event-green-btn{
+    position: absolute;
+    margin: 420px 2px 2px 1px;
+    height: 40px;
+    width: 715px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+}
+  
+.event-btn-style{
+    height: 40px;
+    width: 715px;
+    background: #16a085;
+    border: none;
+    text-align: center;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+    border-radius: 2px;
+}
+  
+.event-btn-style:hover, .event-btn-style:focus{
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+  
+.event-btn-style:active{
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+.event-delete-btn{
+    position: absolute;
+    margin: 470px 2px 2px 1px;
+    height: 40px;
+    width: 715px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+}
+
+.eve-delbtn-style{
+    height: 40px;
+    width: 715px;
+    background: #d52600;
+    border: none;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.eve-delbtn-style:hover, .eve-delbtn-style:focus{
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+  
+.eve-delbtn-style:active{
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}

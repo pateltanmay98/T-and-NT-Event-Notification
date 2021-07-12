@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="style/style_reg.css">
+    </head>
+    <body>
+        <div class="div-login">
+            <form action="login.php" method="POST">
+                <h1>Login</h1>
+                <input type="text" name="id" placeholder="User ID" />
+                <input type="password" name="password" placeholder="Password" />
+                <input type="submit" name="signup_submit" value="Login" />
+            </form>
+            <button type="button" onclick="show()" class="btn-style">Don't Have Account?</button>
+        </div>
+
+        <div id="divlogreg" style="display: none;">
+            <button type="button" onclick="student()" class="btn-style" style="width: 240px;" >Student Registration</button>
+            <button type="button" onclick="college()" class="btn-style" style="width: 240px;" >College Registration</button>
+        </div>
+        
+        <script>
+            function show()
+            {
+                var x = document.getElementById("divlogreg");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+            function student()
+            {
+                window.location="StudentRegistration.html";
+            }
+            function college()
+            {
+                window.location="CollegeRegistration.html";
+            }
+        </script>    
+
+    </body>
+</html>

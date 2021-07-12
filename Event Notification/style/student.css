@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #DDD;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Times New Roman';
+    font-weight: 300;
+}
+
+a, a:hover{ 
+    outline: none;
+    text-decoration: none;
+    color: #35BDF5;
+}
+  
+a:hover{ 
+    text-decoration: underline;
+}
+
+ul{ 
+    margin: 2px 0 22px 17px;
+}
+
+ul li{ 
+    list-style-type: circle;
+    margin: 0 0 0 0; 
+    padding: 0 0 4px 5px;
+}
+
+#main, #header, #logo, #menubar, #site_content, #footer{ 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#main{ 
+    width: 950px;
+    margin: 20px auto;
+}
+
+#header{ 
+    width: 952px;
+    height: 145px;
+}
+
+#logo{ 
+    width: 950px;
+    float: left;
+    height: 100px;
+    background: transparent;
+    padding: 0 0 0px 10px;
+}
+
+#logo h1{ 
+    font: normal 350% 'Yanone Kaffeesatz', arial, sans-serif;
+    padding: 5px 0 0 17px;
+    color: #555;
+    float: left;
+}
+
+#logo h1 a{ 
+    color: #35BDF5;
+    text-decoration: none;
+}
+
+#menubar{ 
+    height: 46px;
+    width: 700px;
+    margin: 0px auto -1px auto;
+    float: right;
+    padding: 0px 0 0 0;
+}
+
+ul#menu{ 
+    float: right;
+}
+
+ul#menu li
+{ 
+    float: left;
+    padding: 0 0 0px 0px;
+    list-style: none;
+    margin: 2px 0 0 0;
+    background: transparent;
+}
+
+ul#menu li a{ 
+    font: normal 170% 'Yanone Kaffeesatz', sans-serif;
+    text-decoration: none;
+    color: #444;
+    display: block; 
+    float: left; 
+    height: 20px;
+    padding: 7px 23px 15px 23px;
+    text-align: center;
+}
+
+ul#menu li.current a{ 
+    height: 20px;
+    padding: 6px 22px 15px 22px;
+}
+
+ul#menu li.current a{ 
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    color: #F14E23;
+}
+
+ul#menu li a:hover{ 
+    color: #F14E23;
+}
+
+#site_content{ 
+    width: 950px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #E7E7E7;
+} 
+
+#content{ 
+    text-align: left;
+    width: 630px;
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+#content ul{ 
+    margin: 2px 0 22px 0px;
+}
+
+#content ul li{ 
+    list-style-type: none;
+    background: url(bullet.png) no-repeat;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 25px;
+    line-height: 1.5em;
+}
+
+.event_main{
+    position: relative;
+    margin: 2% auto;
+    width: 600px;
+    height: 215px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    padding: 20px;
+}
+  
+.event_title{
+    position: absolute;
+    margin-left: 20px;
+    width: 520px;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+  
+.event_college_name{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 520px;
+    height: 50px;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+}
+  
+.event_date{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+    height: 40px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    padding: 10px;
+}
+  
+.event_view{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 290px;
+    height: 40px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+}
+  
+.eve-btn-style{
+    height: 40px;
+    width: 250px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Times New Roman';
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+  
+.eve-btn-style:hover, .eve-btn-style:focus{
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+  
+.eve-btn-style:active{
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}

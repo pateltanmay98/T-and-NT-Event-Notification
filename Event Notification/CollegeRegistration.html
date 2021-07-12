@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="style/style_reg.css">
+    </head>
+    <body>
+        <form action="CollegeRegistration.php" method="POST" onsubmit="return check()" name="clg_reg" class="frm_div">
+            <div class="div-reg-col">
+                  <h1>Sign up</h1>
+                  <input type="text" name="cid" placeholder="College ID (User ID)" />
+                  <input type="text" name="cname" placeholder="College Name" />
+                  <input type="text" name="cmobno" placeholder="Phone No." />
+                  <input type="email" name="cemail" placeholder="E-mail" />
+                  <input type="password" name="cpassword1" placeholder="Password" />
+                  <input type="password" name="cpassword2" placeholder="Retype password" />
+                  <input type="submit" name="signup_submit" value="Sign me up" />   
+            </div>
+        </form>
+        <script>
+            function check()
+            {
+                var pass1 = document.forms["clg_reg"]["cpassword1"].value;
+                var pass2 = document.forms["clg_reg"]["cpassword2"].value;
+                var name = document.forms["clg_reg"]["cname"].value;
+
+                if(pass1 == 0)
+                {
+                    alert("Enter Password");
+                    return false;
+                }
+
+                else if(pass1 != pass2)
+                {
+                    alert("does not match password!");
+                    return false;
+                }
+
+                else
+                {
+//                    alert("Welcome "+name+". Click on ok to Login");
+                    return true;
+                }
+
+            }
+        </script>
+    </body>
+</html>

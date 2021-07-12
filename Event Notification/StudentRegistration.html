@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="style/style_reg.css">
+    </head>
+    <body>
+        <form action="StudentRegistration.php" method="POST" onsubmit="return check()" name="stu_reg" class="frm_div">
+            <div class="div-reg-stu">
+                  <h1>Sign up</h1>
+                  <input type="text" name="senrlno" placeholder="Enrollment No. (User ID)" />
+                  <input type="text" name="sfname" placeholder="First Name" />
+                  <input type="text" name="slname" placeholder="Last Name" />
+                  <input type="text" name="smobno" placeholder="Mobile No." />
+                  <input type="email" name="semail" placeholder="E-mail" />
+                  <input type="text" name="sclgename" placeholder="College Name" />
+                  <input type="password" name="spassword1" placeholder="Password" />
+                  <input type="password" name="spassword2" placeholder="Retype password" />
+                  <input type="submit" name="signup_submit" value="Sign me up" />
+            </div>
+        </form>
+        <script>
+            function check()
+            {
+                var pass1 = document.forms["stu_reg"]["spassword1"].value;
+                var pass2 = document.forms["stu_reg"]["spassword2"].value;
+                var name = document.forms["stu_reg"]["sfname"].value;
+
+                if(pass1 == 0)
+                {
+                    alert("Enter Password");
+                    return false;
+                }
+
+                else if(pass1 != pass2)
+                {
+                    alert("does not match password!");
+                    return false;
+                }
+
+                else
+                {
+//                    alert("Welcome "+name+". Click on ok to Login");
+                    return true;
+                }
+
+            }
+        </script>
+    </body>
+</html>
